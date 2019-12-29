@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.lang.Integer</OriginalElement>
+  <nodes>
+    <node x="234.4999999999999" y="370.0">java.util.concurrent.atomic.LongAdder</node>
+    <node x="1334.1521915584415" y="280.0">java.lang.Float</node>
+    <node x="563.1521915584415" y="280.0">java.lang.Double</node>
+    <node x="1390.2499999999998" y="370.0">java.util.concurrent.atomic.DoubleAdder</node>
+    <node x="439.15219155844136" y="280.0">java.util.concurrent.atomic.Striped64</node>
+    <node x="766.1521915584415" y="280.0">java.lang.Integer</node>
+    <node x="274.40219155844136" y="0.0">java.io.Serializable</node>
+    <node x="1201.1521915584415" y="280.0">java.math.BigDecimal</node>
+    <node x="302.15219155844136" y="280.0">java.util.concurrent.atomic.AtomicLong</node>
+    <node x="0.0" y="370.0">java.util.concurrent.atomic.LongAccumulator</node>
+    <node x="1104.1521915584415" y="280.0">java.lang.Long</node>
+    <node x="152.15219155844136" y="280.0">java.util.concurrent.atomic.AtomicInteger</node>
+    <node x="876.1521915584415" y="280.0">java.lang.Short</node>
+    <node x="975.1521915584415" y="280.0">java.math.BigInteger</node>
+    <node x="936.1521915584415" y="90.0">java.lang.Comparable</node>
+    <node x="862.4999999999998" y="370.0">java.util.concurrent.atomic.DoubleAccumulator</node>
+    <node x="673.1521915584415" y="280.0">java.lang.Byte</node>
+    <node x="740.6521915584415" y="90.0">java.lang.Number</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.math.BigDecimal" target="java.lang.Number">
+      <point x="-28.25" y="-15.0" />
+      <point x="1229.4021915584415" y="170.0" />
+      <point x="823.5612824675322" y="170.0" />
+      <point x="34.90909090909088" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.AtomicInteger" target="java.io.Serializable">
+      <point x="-32.5" y="-15.0" />
+      <point x="184.65219155844136" y="70.0" />
+      <point x="315.1164772727271" y="70.0" />
+      <point x="-16.285714285714278" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.DoubleAdder" target="java.util.concurrent.atomic.Striped64">
+      <point x="-31.5" y="-15.0" />
+      <point x="1421.7499999999998" y="340.0" />
+      <point x="530.1521915584414" y="340.0" />
+      <point x="39.0" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.DoubleAdder" target="java.io.Serializable">
+      <point x="31.5" y="-15.0" />
+      <point x="1484.7499999999998" y="50.0" />
+      <point x="380.25933441558425" y="50.0" />
+      <point x="48.85714285714289" y="15.0" />
+    </edge>
+    <edge source="java.math.BigDecimal" target="java.lang.Comparable">
+      <point x="28.25" y="-15.0" />
+      <point x="1285.9021915584415" y="160.0" />
+      <point x="1033.6521915584415" y="160.0" />
+      <point x="37.5" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.LongAdder" target="java.util.concurrent.atomic.Striped64">
+      <point x="28.25" y="-15.0" />
+      <point x="319.2499999999999" y="350.0" />
+      <point x="478.15219155844136" y="350.0" />
+      <point x="-13.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Float" target="java.lang.Number">
+      <point x="-19.0" y="-15.0" />
+      <point x="1353.1521915584415" y="150.0" />
+      <point x="832.288555194805" y="150.0" />
+      <point x="43.636363636363626" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.LongAdder" target="java.io.Serializable">
+      <point x="-28.25" y="-15.0" />
+      <point x="262.7499999999999" y="330.0" />
+      <point x="141.65219155844136" y="330.0" />
+      <point x="141.65219155844136" y="60.0" />
+      <point x="298.8307629870128" y="60.0" />
+      <point x="-32.571428571428555" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.AtomicLong" target="java.io.Serializable">
+      <point x="-29.25" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.math.BigInteger" target="java.lang.Number">
+      <point x="-27.25" y="-15.0" />
+      <point x="1002.4021915584415" y="210.0" />
+      <point x="806.106737012987" y="210.0" />
+      <point x="17.454545454545496" y="15.0" />
+    </edge>
+    <edge source="java.lang.Double" target="java.lang.Comparable">
+      <point x="22.5" y="-15.0" />
+      <point x="630.6521915584415" y="230.0" />
+      <point x="943.6521915584415" y="230.0" />
+      <point x="-52.5" y="15.0" />
+    </edge>
+    <edge source="java.lang.Float" target="java.lang.Comparable">
+      <point x="19.0" y="-15.0" />
+      <point x="1391.1521915584415" y="140.0" />
+      <point x="1048.6521915584415" y="140.0" />
+      <point x="52.5" y="15.0" />
+    </edge>
+    <edge source="java.lang.Byte" target="java.lang.Number">
+      <point x="-18.25" y="-15.0" />
+      <point x="691.4021915584415" y="220.0" />
+      <point x="779.9249188311687" y="220.0" />
+      <point x="-8.727272727272748" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.AtomicLong" target="java.lang.Number">
+      <point x="29.25" y="-15.0" />
+      <point x="389.90219155844136" y="190.0" />
+      <point x="753.7431006493505" y="190.0" />
+      <point x="-34.90909090909088" y="15.0" />
+    </edge>
+    <edge source="java.lang.Integer" target="java.lang.Comparable">
+      <point x="22.5" y="-15.0" />
+      <point x="833.6521915584415" y="250.0" />
+      <point x="973.6521915584415" y="250.0" />
+      <point x="-22.5" y="15.0" />
+    </edge>
+    <edge source="java.lang.Short" target="java.lang.Number">
+      <point x="-19.75" y="-15.0" />
+      <point x="895.9021915584415" y="220.0" />
+      <point x="797.3794642857142" y="220.0" />
+      <point x="8.727272727272748" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.Striped64" target="java.lang.Number">
+      <point x="0.0" y="-15.0" />
+      <point x="491.15219155844136" y="200.0" />
+      <point x="762.4703733766232" y="200.0" />
+      <point x="-26.18181818181813" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.LongAccumulator" target="java.util.concurrent.atomic.Striped64">
+      <point x="37.25" y="-15.0" />
+      <point x="111.75" y="340.0" />
+      <point x="452.15219155844136" y="340.0" />
+      <point x="-39.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Long" target="java.lang.Number">
+      <point x="-19.25" y="-15.0" />
+      <point x="1123.4021915584415" y="190.0" />
+      <point x="814.8340097402595" y="190.0" />
+      <point x="26.18181818181813" y="15.0" />
+    </edge>
+    <edge source="java.lang.Long" target="java.lang.Comparable">
+      <point x="19.25" y="-15.0" />
+      <point x="1161.9021915584415" y="180.0" />
+      <point x="1018.6521915584415" y="180.0" />
+      <point x="22.5" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.DoubleAccumulator" target="java.util.concurrent.atomic.Striped64">
+      <point x="-40.499999999999886" y="-15.0" />
+      <point x="902.9999999999999" y="350.0" />
+      <point x="504.15219155844136" y="350.0" />
+      <point x="13.0" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.LongAccumulator" target="java.io.Serializable">
+      <point x="-37.25" y="-15.0" />
+      <point x="37.25" y="50.0" />
+      <point x="282.5450487012985" y="50.0" />
+      <point x="-48.85714285714283" y="15.0" />
+    </edge>
+    <edge source="java.lang.Short" target="java.lang.Comparable">
+      <point x="19.75" y="-15.0" />
+      <point x="935.4021915584415" y="260.0" />
+      <point x="988.6521915584415" y="260.0" />
+      <point x="-7.5" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.DoubleAccumulator" target="java.io.Serializable">
+      <point x="40.500000000000114" y="-15.0" />
+      <point x="983.9999999999999" y="350.0" />
+      <point x="1420.6521915584415" y="350.0" />
+      <point x="1420.6521915584415" y="60.0" />
+      <point x="363.97362012986997" y="60.0" />
+      <point x="32.57142857142861" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.AtomicInteger" target="java.lang.Number">
+      <point x="32.5" y="-15.0" />
+      <point x="249.65219155844136" y="180.0" />
+      <point x="745.0158279220777" y="180.0" />
+      <point x="-43.636363636363626" y="15.0" />
+    </edge>
+    <edge source="java.lang.Double" target="java.lang.Number">
+      <point x="-22.5" y="-15.0" />
+      <point x="585.6521915584415" y="210.0" />
+      <point x="771.197646103896" y="210.0" />
+      <point x="-17.454545454545496" y="15.0" />
+    </edge>
+    <edge source="java.lang.Number" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="788.6521915584415" y="70.0" />
+      <point x="347.6879058441557" y="70.0" />
+      <point x="16.285714285714334" y="15.0" />
+    </edge>
+    <edge source="java.lang.Byte" target="java.lang.Comparable">
+      <point x="18.25" y="-15.0" />
+      <point x="727.9021915584415" y="240.0" />
+      <point x="958.6521915584415" y="240.0" />
+      <point x="-37.5" y="15.0" />
+    </edge>
+    <edge source="java.lang.Integer" target="java.lang.Number">
+      <point x="-22.5" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.math.BigInteger" target="java.lang.Comparable">
+      <point x="27.25" y="-15.0" />
+      <point x="1056.9021915584415" y="200.0" />
+      <point x="1003.6521915584415" y="200.0" />
+      <point x="7.5" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.973975276512687" x="758.5" y="200.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
